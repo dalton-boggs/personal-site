@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.archHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interestsContainer {
+    margin: 10px 0;
+}
+
+.interestsIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.interests {
+    width: 50px;
+}
+
+.fleurDeLis {
+    height: 50px;
+    width: auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .interests-container {
+        padding: 3px;
+    }
+
+    .interests {
+        width: 30px;
+    }
+}
